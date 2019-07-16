@@ -2,10 +2,21 @@ import React, { Component } from "react";
 
 class Alert extends Component {
   state = {
-    close: false //local state to determine whether close button is clicked
+    showAlert: this.props.showAlert,
+    close: false
   };
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.showAlert !== this.state.showAlert) {
+      this.setState({ showAlert: nextProps.showAlert });
+    }
+  }
+
   render() {
-    if (this.props.showAlert === true && this.state.close === false) {
+    if (this.props.started && this.state.close) {
+      this.setState({ close: false });
+    }
+    if (this.state.showAlert === true && this.state.close === false) {
+      document.getElementById("stopBtn").click(); //stop the timer (click stop button)
       return (
         <div className="alert alert-primary alert-dismissible fixed-bottom">
           <button
@@ -21,7 +32,6 @@ class Alert extends Component {
         </div>
       );
     } else {
-      this.state.close = false;
       return null;
     }
   }
