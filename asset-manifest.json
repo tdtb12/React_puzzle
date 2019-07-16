@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React_puzzle/static/css/main.3d835910.chunk.css",
-    "main.js": "/React_puzzle/static/js/main.d9580cc0.chunk.js",
-    "main.js.map": "/React_puzzle/static/js/main.d9580cc0.chunk.js.map",
+    "main.js": "/React_puzzle/static/js/main.1936d993.chunk.js",
+    "main.js.map": "/React_puzzle/static/js/main.1936d993.chunk.js.map",
     "runtime~main.js": "/React_puzzle/static/js/runtime~main.29542a90.js",
     "runtime~main.js.map": "/React_puzzle/static/js/runtime~main.29542a90.js.map",
     "static/css/2.510409cd.chunk.css": "/React_puzzle/static/css/2.510409cd.chunk.css",
-    "static/js/2.39e0526a.chunk.js": "/React_puzzle/static/js/2.39e0526a.chunk.js",
-    "static/js/2.39e0526a.chunk.js.map": "/React_puzzle/static/js/2.39e0526a.chunk.js.map",
+    "static/js/2.8ec48e1f.chunk.js": "/React_puzzle/static/js/2.8ec48e1f.chunk.js",
+    "static/js/2.8ec48e1f.chunk.js.map": "/React_puzzle/static/js/2.8ec48e1f.chunk.js.map",
     "index.html": "/React_puzzle/index.html",
-    "precache-manifest.a4a2ed76919441ee33d69f77497756bb.js": "/React_puzzle/precache-manifest.a4a2ed76919441ee33d69f77497756bb.js",
+    "precache-manifest.9449e2605d69aa015472ebaa1a2ec64b.js": "/React_puzzle/precache-manifest.9449e2605d69aa015472ebaa1a2ec64b.js",
     "service-worker.js": "/React_puzzle/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/React_puzzle/static/css/2.510409cd.chunk.css.map",
     "static/css/main.3d835910.chunk.css.map": "/React_puzzle/static/css/main.3d835910.chunk.css.map"
